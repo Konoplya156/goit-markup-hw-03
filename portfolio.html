@@ -8,100 +8,108 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="" class="logo_header_1 link"><span class="logo_header">Web</span><span>Studio</span></a>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <a href="" class="logo_header_1 link"><span class="logo_header">Web</span><span>Studio</span></a>
+                <ul>
+                    <li>
+                        <a href="./index.html" class="header_stroke link">Студия</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html" class="header_stroke link">Портфолио</a>
+                    </li>
+                    <li>
+                        <a href="" class="header_stroke link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
             <ul>
-                <li>
-                    <a href="./index.html" class="header_stroke link">Студия</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="header_stroke link">Портфолио</a>
-                </li>
-                <li>
-                    <a href="" class="header_stroke link">Контакты</a>
-                </li>
+                <li><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="number link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="number link">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section>
-            <ul>
-                <li><button type="button" class="filter_link">
-                        Все
-                    </button></li>
-                <li><button type="button" class="filter_link">
-                        Веб-сайты
-                    </button></li>
-                <li><button type="button" class="filter_link">
-                        Приложения
-                    </button></li>
-                <li><button type="button" class="filter_link">
-                        Дизайн
-                    </button></li>
-                <li><button type="button" class="filter_link">
-                        Маркетинг
-                    </button></li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./images/notebook-1.jpg" alt="notebook">
-                    <h3>Технокряк</h3>
-                    <p class="about">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/basketball.jpg" alt="basketball">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p class="about">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/fish-1.jpg" alt="fish">
-                    <h3>Ресторан Seafood</h3>
-                    <p class="about">Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/headphones-1.jpg" alt="headphones">
-                    <h3>Проект Prime</h3>
-                    <p class="about">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/boxes.jpg" alt="boxes">
-                    <h3>Проект Boxes</h3>
-                    <p class="about">Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/imac-1.jpg" alt="mac">
-                    <h3>Inspiration has no Borders</h3>
-                    <p class="about">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/book-1.jpg" alt="book">
-                    <h3>Издание Limited Edition</h3>
-                    <p class="about">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/labtag-1.jpg" alt="project">
-                    <h3>Проект LAB</h3>
-                    <p class="about">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/notebook-2.jpg" alt="notebook">
-                    <h3>Growing Business</h3>
-                    <p class="about">Приложение</p>
-                </li>
-            </ul>
+        <div class="container">
+            <section>
+                <ul>
+                    <li><button type="button" class="filter_link">
+                            Все
+                        </button></li>
+                    <li><button type="button" class="filter_link">
+                            Веб-сайты
+                        </button></li>
+                    <li><button type="button" class="filter_link">
+                            Приложения
+                        </button></li>
+                    <li><button type="button" class="filter_link">
+                            Дизайн
+                        </button></li>
+                    <li><button type="button" class="filter_link">
+                            Маркетинг
+                        </button></li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="./images/notebook-1.jpg" alt="notebook">
+                        <h3>Технокряк</h3>
+                        <p class="about">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/basketball.jpg" alt="basketball">
+                        <h3>Постер New Orlean vs Golden Star</h3>
+                        <p class="about">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/fish-1.jpg" alt="fish">
+                        <h3>Ресторан Seafood</h3>
+                        <p class="about">Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/headphones-1.jpg" alt="headphones">
+                        <h3>Проект Prime</h3>
+                        <p class="about">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/boxes.jpg" alt="boxes">
+                        <h3>Проект Boxes</h3>
+                        <p class="about">Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/imac-1.jpg" alt="mac">
+                        <h3>Inspiration has no Borders</h3>
+                        <p class="about">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/book-1.jpg" alt="book">
+                        <h3>Издание Limited Edition</h3>
+                        <p class="about">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/labtag-1.jpg" alt="project">
+                        <h3>Проект LAB</h3>
+                        <p class="about">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/notebook-2.jpg" alt="notebook">
+                        <h3>Growing Business</h3>
+                        <p class="about">Приложение</p>
+                    </li>
+                </ul>
 
-        </section>
+            </section>
+        </div>
+
     </main>
     <footer class="footer">
         <a href="" class="logo_footer_1 link"><span class="logo_footer">Web</span><span>Studio</span></a>
