@@ -1,0 +1,211 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+
+}
+
+
+
+.link {
+    text-decoration: none;
+}
+
+.about,
+.mail,
+.number {
+    color: #757575;
+    cursor: pointer;
+}
+
+
+.mail,
+.number {
+    font-weight: 500;
+}
+
+.about,
+.footer_number,
+.footer_number {
+    font-weight: 400;
+}
+
+
+
+.footer_number,
+.footer_mail {
+    font-weight: 500;
+    color: #757575;
+    cursor: pointer;
+}
+
+
+
+
+.we {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.page {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.main_page {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    background-color: #2F303A;
+    color: #757575;
+}
+
+
+.footer_adress {
+    color: white;
+}
+
+.footer_adress:hover {
+    color: #2196F3;
+}
+
+
+.footer_mail:hover {
+    color: #2196F3;
+}
+
+
+.footer_number:hover {
+    color: #2196F3;
+}
+
+
+
+
+.main_title {
+    color: white;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #2F303A;
+}
+
+
+.main_title1 {
+    font-weight: 900;
+}
+
+
+ul {
+    list-style: none
+}
+
+.filter_link,
+.buy {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+
+.filter_link {
+    color: #212121;
+    font-weight: 500;
+}
+
+
+
+
+.buy {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+}
+
+
+.filter_link:hover {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.header_stroke:hover {
+    color: #2196F3;
+}
+
+
+.mail:hover {
+    color: #2196F3;
+}
+
+.number:hover {
+    color: #2196F3;
+}
+
+.header_stroke {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+
+.logo_header_1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+.logo_footer_1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+
+.logo_header {
+    color: #2196F3;
+}
+
+.logo_footer {
+    color: #2196F3;
+}
