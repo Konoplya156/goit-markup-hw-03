@@ -19,6 +19,7 @@ button {
     cursor: pointer;
 }
 
+
 address {
     font-style: normal;
 }
@@ -127,7 +128,9 @@ body {
 
 .about,
 .mail,
-.number {
+.number,
+.mail-footer,
+.number-footer {
     color: #757575;
     cursor: pointer;
 }
@@ -284,7 +287,9 @@ body {
 }
 
 
-.photo {
+.photo,
+.team-item,
+.example-item {
     display: block;
     max-width: 100%;
     height: auto;
@@ -332,19 +337,18 @@ body {
 
 
 .footer {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
+
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
+
+
+
 .footer-adress {
     color: white;
+    margin-top: 20px;
 }
 
 .footer-adress:hover {
@@ -427,9 +431,13 @@ ul {
     background: #F5F4FA;
     border: 1px solid #F5F4FA;
     margin-top: 0;
-    margin-bottom: 50px;
     padding: 6px 22px;
     border-radius: 4px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -468,6 +476,7 @@ ul {
 
 .section-btn-item {
     margin-right: 8px;
+    margin-bottom: 50px;
 
 }
 
@@ -486,6 +495,7 @@ ul {
     color: var(--primery-white-color);
     background-color: var(--accent-text-color);
     border: 1px solid var(--accent-text-color);
+
 }
 
 
@@ -509,6 +519,7 @@ ul {
     letter-spacing: 0.03em;
     display: flex;
     margin-right: 100px;
+
 }
 
 
@@ -520,7 +531,29 @@ ul {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
+
+
+
+.number-footer,
+.mail-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+}
+
+
+.mail-footer {
+    margin-top: 20px;
+}
+
+
+
 
 .footer-container {
     width: 1170px;
@@ -532,9 +565,6 @@ ul {
     margin-right: auto;
 }
 
-.footer-list {
-    margin-top: 20px;
-}
 
 .logo_header {
     color: #2196F3;
@@ -547,11 +577,17 @@ ul {
 
 
 .footer-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
     margin-top: 9px;
 }
 
 .footer-item :hover {
-    color: var(--accent-text-color);
+    color: #2196F3
 }
 
 .footer-item :focus {
@@ -585,6 +621,7 @@ ul {
 
 .example-item {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -615,7 +652,7 @@ ul {
     padding: 20px 24px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: 0;
