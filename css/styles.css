@@ -88,9 +88,7 @@ body {
     align-items: center;
 }
 
-.header-info-num {
-    margin-right: 0;
-}
+
 
 .header-info-num,
 .header-info-mail {
@@ -145,6 +143,9 @@ body {
     letter-spacing: 0.02em;
 }
 
+
+
+
 .about,
 .footer-number,
 .footer-number {
@@ -162,6 +163,8 @@ body {
 
 }
 
+
+
 .footer-number,
 .footer-mail {
     font-weight: 500;
@@ -178,8 +181,8 @@ body {
 
 .team {
     background: #F5F4FA;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -284,7 +287,7 @@ body {
 }
 
 
-.photo,
+.photo-tree,
 .team-img,
 .example-photo {
     display: block;
@@ -322,7 +325,7 @@ body {
 
 .footer-adress {
     color: white;
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .footer-adress:hover {
@@ -580,10 +583,9 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primery-text-color);
-    margin-top: 20px;
     margin-bottom: 4px;
-
-    min-width: 370px;
+    /* margin-top: 20px;
+    min-width: 370px; */
 
 
 }
@@ -592,10 +594,17 @@ ul {
     flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    width: 370px;
 }
 
 
-
+.example-item-book,
+.example-item-project,
+.example-item-notebook {
+    flex-basis: calc((100% - 60px) / 3);
+    margin-bottom: 0;
+    margin-right: 30px;
+}
 
 
 .example-text {
@@ -633,7 +642,7 @@ ul {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: 0;
-    max-width: 370px;
-    min-width: 370px;
+    /* max-width: 370px;
+    min-width: 370px; */
     padding: 20px 24px;
 }
